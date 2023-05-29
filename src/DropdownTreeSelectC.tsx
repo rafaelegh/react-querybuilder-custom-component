@@ -3,9 +3,9 @@ import 'react-dropdown-tree-select/dist/styles.css'
 
 import data from "./data/data.json";
 
-const onChange = (currentNode: TreeNode, selectedNodes:TreeNode[]) => {
+/* const onChange = (currentNode: TreeNode, selectedNodes:TreeNode[]) => {
   console.log('onChange::', currentNode, selectedNodes)
-}
+} */
 const onAction = (node: TreeNode, action: NodeAction) => {
   console.log('onAction::', action, node)
 }
